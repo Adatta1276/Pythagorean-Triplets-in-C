@@ -6,9 +6,11 @@ using namespace std;
 int main() {
     double num1,num2,num3,opChoice,startNum,result;
 
-    cout<<"Operations : 1. Check if three numbers form a Pythagorean triplet. \n 2. Enter a number and find a Pythagorean triplet starting with it. \n\n";
+    cout<<"Operations : 1. Check if three numbers form a Pythagorean triplet. \n             2. Enter a number and find a Pythagorean triplet starting with it. \n\n";
     cout<<"Enter the operation you want to perform (1 for the first, 2 for the second) : \n";
     cin>>opChoice;
+
+
 
     if(opChoice == 1) {
         cout<<"Enter the first number : \n";
@@ -40,6 +42,7 @@ int main() {
         cin>>num1;
 
         cout<<"A Pythagorean triplet with "<<num1<<" as its first number is "<<num1<<","<<((num1/2)*(num1/2)-1)<<","<<((num1/2)*(num1/2)+1);
+
 
 
     }
